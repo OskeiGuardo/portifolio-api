@@ -11,9 +11,13 @@ gem "bootsnap", require: false
 gem "rack-cors"
 gem 'devise'
 gem 'devise-jwt'
+gem 'rswag-api'
+gem 'rswag-ui'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem 'rspec-rails'
+  gem 'rswag-specs'
 end
 
 group :development do
