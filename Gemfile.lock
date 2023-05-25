@@ -88,6 +88,7 @@ GEM
       devise (~> 4.0)
       warden-jwt_auth (~> 0.8)
     diff-lcs (1.5.0)
+    docile (1.4.0)
     dry-auto_inject (1.0.1)
       dry-core (~> 1.0)
       zeitwerk (~> 2.6)
@@ -203,6 +204,12 @@ GEM
     rswag-ui (2.9.0)
       actionpack (>= 3.1, < 7.1)
       railties (>= 3.1, < 7.1)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
     thor (1.2.2)
     timeout (0.3.2)
     tzinfo (2.0.6)
@@ -235,6 +242,7 @@ DEPENDENCIES
   rswag-api
   rswag-specs
   rswag-ui
+  simplecov
   tzinfo-data
 
 RUBY VERSION
